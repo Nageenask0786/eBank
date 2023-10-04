@@ -1,0 +1,55 @@
+.home-route {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-size: cover;
+  background-color: #152850;
+}
+
+.div1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.logo {
+  height: 40px;
+  width: 130px;
+  margin-left: 40px;
+}
+
+.div2 {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  background-size: cover;
+}
+
+.home-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 40px;
+}
+.card {
+  height: 250px;
+  width: 320px;
+}
+
+.logout-button {
+  height: 30px;
+  width: 80px;
+  background-color: transparent;
+  font-family: 'Roboto';
+  color: #ffffff;
+  border-style: solid;
+  margin-right: 40px;
+  margin-top: 10px;
+  border-width: 2px;
+  border-color: #ffffff;
+  cursor: pointer;
+}
